@@ -34,38 +34,47 @@ public class Mario {
     }
 
     public String getNome() {
+
         return nome;
     }
 
     public void setNome(String n) {
+
         this.nome = n;
     }
 
     public double getAltura() {
+
         return altura;
     }
 
     public void setAltura(double alt) {
+
         this.altura = alt;
     }
 
     public int getIdade() {
+
         return idade;
     }
 
     public void setIdade(int i) {
+
         this.idade = i;
     }
 
     public String getHobby() {
+
         return hobby;
     }
 
     public void setHobby(String hby) {
+
         this.hobby = hby;
     }
 
     public String getComidaPreferida() {
+
         return comidaPreferida;
     }
 
@@ -74,14 +83,17 @@ public class Mario {
     }
 
     public String getNacionalidade() {
+
         return nacionalidade;
     }
 
     public void setNacionalidade(String nacio) {
+
         this.nacionalidade = nacio;
     }
 
     public String getEspecie() {
+
         return especie;
     }
 
@@ -90,10 +102,12 @@ public class Mario {
     }
 
     public int getStamina() {
+
         return stamina;
     }
 
     public void setStamina(int stam) {
+
         this.stamina = stam;
     }
 
