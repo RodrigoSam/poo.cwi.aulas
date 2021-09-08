@@ -1,6 +1,6 @@
 package poo_aula_4;
 
-public class MarioWord {
+public class Teste {
     public static void main(String[] args) {
 Mario mario = new Mario();
 mario.chamaCaracteristicas();

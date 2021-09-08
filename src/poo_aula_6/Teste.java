@@ -1,7 +1,7 @@
 package poo_aula_6;
 
 
-public class MarioWord2 {
+public class Teste {
         public static void main(String[] args) {
                 Mario2 mario = new Mario2();
                 System.out.println("Mario correu sem parar!");

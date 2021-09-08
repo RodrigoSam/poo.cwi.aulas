@@ -1,5 +1,5 @@
 package poo_aula_5;
-public class MarioWord1 {
+public class Teste {
         public static void main(String[] args) {
                 Mario1 mario = new Mario1();
                 System.out.println("Mario correu sem parar!");
