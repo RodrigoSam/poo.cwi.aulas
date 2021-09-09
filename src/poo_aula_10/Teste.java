@@ -50,6 +50,7 @@ public class Teste {
 
         //Testes das implementações da classe Luigi
         luigi.voar();
+        luigi.pousar();
         luigi.saltar();
         luigi.saltar(1.20);
         luigi.montadoNoYoshi();

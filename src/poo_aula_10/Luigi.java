@@ -18,9 +18,9 @@ public class Luigi extends Personagem {
 
     public void montadoNoYoshi() {
         if (yoshi == null) {
-            System.out.println("Mario não está montado no Yoshi");
+            System.out.println("Luigi não está montado no Yoshi");
         } else {
-            System.out.println("Mario está montado no Yoshi");
+            System.out.println("Luigi está montado no Yoshi");
         }
     }
 
@@ -30,6 +30,9 @@ public class Luigi extends Personagem {
 
     public void voar() {
         System.out.println("Luigi está voando");
+    }
+    public void pousar(){
+        System.out.println("Luigi pousou!!");
     }
 
     @Override
