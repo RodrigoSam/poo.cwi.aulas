@@ -13,6 +13,7 @@ public class Teste {
         //Testes das implementações da classe Mario
         mario.chamaCaracteristicas();
         mario.chamaPoderes();
+
         linha();
         for (int i = 0; i < 5; i++) {
             mario.perdStamina();
