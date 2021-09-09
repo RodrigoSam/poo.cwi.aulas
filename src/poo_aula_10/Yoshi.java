@@ -1,4 +1,4 @@
-package poo_aula_9;
+package poo_aula_10;
 
 public class Yoshi extends Personagem {
     public Yoshi(String nome, double altura, int idade) {
@@ -17,9 +17,12 @@ public class Yoshi extends Personagem {
            this.speed *= 2;
         }
     }
-
+    @Override
     public void chamaCaracteristicas() {
         System.out.println(" Nome: " + nome + ", Altura: " + altura + ", Idade : " + idade + ", Velocidade: " + speed + ", Frutas: " + fruits + ", Vidas: " + life);
     }
-
+    @Override
+    public void crescer() {
+        this.altura *= 0.1 + altura;
+    }
 }
