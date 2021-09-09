@@ -17,14 +17,14 @@ public abstract class Personagem {
         this.coins = 0;
         this.life = 1;
     }
-    public String getNome(){
+
+    public String getNome() {
         return this.nome;
     }
 
 
-
     public void chamaCaracteristicas() {
-        System.out.println(" Nome: " + nome + ", Altura: " + altura + ", Idade : " + idade + ", Stamina: " + stamina + ", Moedas: " + coins + ", Vidas: " + life);
+        System.out.println("Nome: " + nome + ", Altura: " + altura + ", Idade : " + idade + ", Stamina: " + stamina + ", Moedas: " + coins + ", Vidas: " + life);
 
 
     }
@@ -50,6 +50,11 @@ public abstract class Personagem {
 
     public abstract void crescer();
 
+    public void diminuir(){
+        this.altura /= 2;
+    }
+
+
     public void revigorar() {
         this.stamina = 100;
     }
@@ -72,11 +77,11 @@ public abstract class Personagem {
     }
 
     public void saltar() {
-      double pulo = this.altura * 0.5;
-      System.out.println(this.nome + " saltou " + pulo + " mts de altura");
+        double pulo = this.altura * 0.5;
+        System.out.println(this.nome + " saltou " + pulo + " mts de altura");
     }
 
-    public void saltar(double alturaObjeto){
+    public void saltar(double alturaObjeto) {
         double pulo = alturaObjeto * 1.5;
         System.out.println(this.nome + " saltou um objeto de " + alturaObjeto + " mts pulando " + String.format("%.2f", pulo) + " de altura, que salto enorme!!!! ");
     }
