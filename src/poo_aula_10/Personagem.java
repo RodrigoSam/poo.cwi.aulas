@@ -78,7 +78,7 @@ public abstract class Personagem {
 
     public void saltar(double alturaObjeto){
         double pulo = alturaObjeto * 1.5;
-        System.out.println(this.nome+ " saltou um objeto de " + alturaObjeto + " mts pulando "+pulo+ " de altura, que salto enorme!!!! ");
+        System.out.println(this.nome + " saltou um objeto de " + alturaObjeto + " mts pulando " + String.format("%.2f", pulo) + " de altura, que salto enorme!!!! ");
     }
 
 }

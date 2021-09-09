@@ -19,6 +19,8 @@ public class Teste {
         yoshi.saltar();
         mario.chamaCaracteristicas();
         mario.saltar(1.50);
+        luigi.saltar(1.20);
+        yoshi.saltar(0.90);
 
 
 
